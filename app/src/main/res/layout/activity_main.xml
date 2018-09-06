@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.chuan_sir.customviewpractice.widget.SlideLockView
+        android:id="@+id/slideView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/slide_height"
+        android:background="@drawable/shape_slide_lock_bg"
+        app:lock_drawable="@drawable/lock_icon_02"
+        app:lock_radius="@dimen/slide_radius"
+        app:lock_text="滑动解锁"
+        app:lock_text_color="@color/colorAccent"
+        app:lock_text_size="20sp"
+        />
+
+</RelativeLayout>
